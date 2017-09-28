@@ -3,14 +3,15 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
 # Tentative Schedule
 
-| Date    | Topic(s)                                             | Moderator |
-|---------|------------------------------------------------------|-----------|
-| Sep 27  | "Overview", "Getting Started", "Basics" all sections | Bob K |
-| Oct 11  | "Classes and Objects" section "Classes and Inheritence" through "Sealed Classes" | Beau H |
-| Oct 25  | "Classes and Objects" section "Generics" through "Delegated Properties" | Terry |
-| Nov 8   | "Functions and Lambdas" all sections  | Stan D |
-| Dec 13  | "Other" all sections  | ? |
-| Sometime Jan  | "Java Interop" and "Core Libraries" | ? |
+| Date   | Topic(s)                                             | Moderator |
+|--------|------------------------------------------------------|-----------|
+| Sep 27 | "Overview", "Getting Started" all sections | Bob K |
+| Oct 11 | "Basics" all sections, "Classes and Objects" sections "Classes and Inheritence" through "Sealed Classes" | Beau H |
+| Oct 25 | "Classes and Objects" section "Generics" through "Delegated Properties" | Terry |
+| Nov 8  | "Functions and Lambdas" all sections  | Stan D |
+| Nov 22 | Thanksgiving | Turkey |
+| Dec 13 | "Other" all sections  | ? |
+| Jan 10 | "Java Interop" and "Core Libraries" | ? |
 
 # TODO
 
