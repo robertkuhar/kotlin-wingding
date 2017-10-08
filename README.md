@@ -16,5 +16,15 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
 # TODO
 
-* 2017-09-24:  Figure out how to build and run Kotlin through Gradle
-* 2017-09-24:  Figure out how to get Kotlin tests supported
+* ~~2017-09-24:  Figure out how to build and run Kotlin through Gradle~~
+
+  2017-10-08:  The IntelliJ wizard seems to have done this.  Its just `apply plugin: 'kotlin'` in build.gradle and from
+  there it is straight-up `gradle build` or `gradle test`
+
+* ~~2017-09-24:  Figure out how to get Kotlin tests supported~~
+
+  2017-10-08:  JUnit 4 tests involve just required 3 things
+
+  1. `testCompile group: 'junit', name: 'junit', version: '4.12'` into the dependencies of build.gradle
+  2. Tests in `src/test/kotlin` directory and annotated like `@org.junit.Test`
+  3. build.gradle `test` task gets `testLogging` property set for `showStandardStreams = true`
