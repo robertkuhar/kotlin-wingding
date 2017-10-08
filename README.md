@@ -31,8 +31,12 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
   improve the output to standard out when test(s) fail
 
 * 2017-10-08:  Creating WebApps with HttpServlet https://kotlinlang.org/docs/tutorials/httpservlets.html
-** This should be possible without full IntelliJ Ultimate.  Gradle as some concept of "run WAR".
+
+  This should be possible without full IntelliJ Ultimate.  Gradle as some concept of "run WAR".
+
 * 2017-10-08:  Creating a RESTful Web Service with Spring Boot https://kotlinlang.org/docs/tutorials/spring-boot-restful.html
-** do this in a separate Repo as it will have a big effect on build.gradle
+
+  do this in a separate Repo as it will have a big effect on build.gradle
+
 * 2017-10-08:  Can we version up Gradle to some 4.x variant?
-* 2017-10-08:  Can we get some semblence of CI on github?
+* 2017-10-08:  Can we run tests on commits in github?
