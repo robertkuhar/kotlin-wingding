@@ -24,11 +24,11 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
   do this in a separate Repo as it will have a big effect on build.gradle
 
-* 2017-10-08:  Can we version up Gradle to some 4.x variant?
+* 2017-10-08:  Can we version up Gradle to be more recent?  4.2.1 is current on 2017-10-08.
 * 2017-10-08:  Can we run tests on commits in github?
 * ~~2017-09-24:  Figure out how to get Kotlin tests supported~~
 
-  2017-10-08:  Integrating JUnit 4 tests involve 3 things
+  Integrating JUnit 4 tests involves 3 things:
 
   1. build.gradle dependencies get `testCompile group: 'junit', name: 'junit', version: '4.12'`
   2. Annotate tests in `src/test/kotlin` directory like `@org.junit.Test`
@@ -37,5 +37,5 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
 * ~~2017-09-24:  Figure out how to build and run Kotlin through Gradle~~
 
-  2017-10-08:  The IntelliJ wizard seems to have done this.  Its just `apply plugin: 'kotlin'` in build.gradle and from
-  there it is straight-up `gradle build`
+  The IntelliJ wizard seems to have done this.  Its just `apply plugin: 'kotlin'` in build.gradle and from there it is
+  straight-up `gradle build`.  Why are we in Gradle 3.5, though?  Do I need to version up tcc-rkuhar.local?
