@@ -14,21 +14,7 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Dec 27 | Christmas break | Santa C |
 | Jan 10 | "Java Interop" and "Core Libraries" | ? |
 
-# TODO
-
-* ~~2017-09-24:  Figure out how to build and run Kotlin through Gradle~~
-
-  2017-10-08:  The IntelliJ wizard seems to have done this.  Its just `apply plugin: 'kotlin'` in build.gradle and from
-  there it is straight-up `gradle build`
-
-* ~~2017-09-24:  Figure out how to get Kotlin tests supported~~
-
-  2017-10-08:  Integrating JUnit 4 tests involve 3 things
-
-  1. build.gradle dependencies get `testCompile group: 'junit', name: 'junit', version: '4.12'`
-  2. Annotate tests in `src/test/kotlin` directory like `@org.junit.Test`
-  3. Configure the `test` task in build.gradle with `testLogging` property set for `showStandardStreams = true` to
-  improve the output to standard out when test(s) fail
+# TODOs
 
 * 2017-10-08:  Creating WebApps with HttpServlet https://kotlinlang.org/docs/tutorials/httpservlets.html
 
@@ -40,3 +26,16 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
 * 2017-10-08:  Can we version up Gradle to some 4.x variant?
 * 2017-10-08:  Can we run tests on commits in github?
+* ~~2017-09-24:  Figure out how to get Kotlin tests supported~~
+
+  2017-10-08:  Integrating JUnit 4 tests involve 3 things
+
+  1. build.gradle dependencies get `testCompile group: 'junit', name: 'junit', version: '4.12'`
+  2. Annotate tests in `src/test/kotlin` directory like `@org.junit.Test`
+  3. Configure the `test` task in build.gradle with `testLogging` property set for `showStandardStreams = true` to
+  improve the output to standard out when test(s) fail
+
+* ~~2017-09-24:  Figure out how to build and run Kotlin through Gradle~~
+
+  2017-10-08:  The IntelliJ wizard seems to have done this.  Its just `apply plugin: 'kotlin'` in build.gradle and from
+  there it is straight-up `gradle build`
