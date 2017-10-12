@@ -6,8 +6,8 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Date   | Topic(s)                                             | Moderator |
 |--------|------------------------------------------------------|-----------|
 | Sep 27 | "Overview", "Getting Started" | Bob K |
-| Oct 11 | "Basics",<br> "Classes and Objects" sections "Classes and Inheritence" through "Sealed Classes" | Beau H |
-| Oct 25 | "Classes and Objects" sections "Generics" through "Delegated Properties" | Terry |
+| Oct 11 | "Basics",<br> "Classes and Objects" sections "Classes and Inheritence" through "Extensions" | Beau H |
+| Oct 25 | "Classes and Objects" sections "Data Classes" through "Delegated Properties" | Terry |
 | Nov 8  | "Functions and Lambdas" | Stan D |
 | Nov 22 | Thanksgiving break | Turkey |
 | Dec 13 | "Other" | ? |
