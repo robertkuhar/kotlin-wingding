@@ -1,0 +1,22 @@
+I remain a little unclear as to the difference between properties and fields.
+Do I really need to care whether this is a backing field or no?
+
+Extension Functions too.  What is the scope of an Extension?
+
+"Data Classes":  https://kotlinlang.org/docs/reference/data-classes.html
+  - your properties are the arguments to the primary constructor
+  - componentN() is interesting in that it give your properties a stable order?
+  - copy() sounds cool
+  - cannot be abstract or open?!?  too bad.
+  - Yep, copy() is pretty cool.  It allows you to get a new copy of an object with mutation of a subset of its properties
+  - Destructuring is cool, it is interesting
+  
+"Sealed Classes":  https://kotlinlang.org/docs/reference/sealed-classes.html
+  - This was not at all what I was expecting...an extension of enum
+ 
+"Generics":
+  - Crap.  Covariant vs Contravariant made no sense at all to me in Java so Kotlin's "in/out" really suffers from the same "but why?" from me.
+  
+
+
+
