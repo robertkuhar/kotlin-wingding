@@ -14,9 +14,17 @@ Extension Functions too.  What is the scope of an Extension?
 "Sealed Classes":  https://kotlinlang.org/docs/reference/sealed-classes.html
   - This was not at all what I was expecting...an extension of enum
  
-"Generics":
+"Generics":  https://kotlinlang.org/docs/reference/generics.html
   - Crap.  Covariant vs Contravariant made no sense at all to me in Java so Kotlin's "in/out" really suffers from the same "but why?" from me.
   
+"Nested Classes":  https://kotlinlang.org/docs/reference/nested-classes.html
+  - no big surprise
 
+"Enum Classes":  https://kotlinlang.org/docs/reference/enum-classes.html
+  - Meh.
+
+"Objects":  https://kotlinlang.org/docs/reference/object-declarations.html
+  - The Singleton syntax is interesting
+  - oh, my.  Scala's Companion Object is a thing in Kotlin
 
 
