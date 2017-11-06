@@ -1,0 +1,20 @@
+"Classes and Objects", "Delegation"
+
+- The by-clause gets you delegation to the parent for free.  Sweet.
+
+"Delegated Properties"
+
+- "There are certain common kinds of properties, that, though we can implement them manually every time we need them,
+would be very nice to implement once and for all, and put into a library"
+- its pretty much "up the middle" how you would expect it to be done
+- "The Kotlin standard library provides factory methods for several useful kinds of delegates."
+  - Lazy is cool.  It is interesting that it is synchronized
+    - I think LazyThreadSafetyMode.PUBLICATION and LazyThreadSafetyMode.NONE is kind-of a cop out
+  - Observable and Vetoable are also neat
+    - It would have been nice to be able to return more information about a vetoed descision
+  - I really don't get "Storing Properties in a Map":  https://kotlinlang.org/docs/reference/delegated-properties.html#storing-properties-in-a-map
+    - what exactly does it get me?
+- Summary:  https://kotlinlang.org/docs/reference/delegated-properties.html#property-delegate-requirements
+
+
+
