@@ -16,5 +16,60 @@ would be very nice to implement once and for all, and put into a library"
     - what exactly does it get me?
 - Summary:  https://kotlinlang.org/docs/reference/delegated-properties.html#property-delegate-requirements
 
+"Functions and Lambdas"
+
+- I was pleased to find there is some KDoc format (like JavaDoc).  Was displeased to learn IntelliJ doesn'ta utocomplete.
+- https://kotlinlang.org/docs/reference/kotlin-doc.html
+- It does seem to be able to pop-up
+- I had forgotten about calling a function with named arguments (Ex. foo(baz = 1) // The default value bar = 0 is used
+- Ugh.  Some bizarre rule about "if the last argument is a lambda".  Special Cases Kill!
+
+- "Named Arguments...Function parameters can be named when calling functions. This is very convenient when a function has
+a high number of parameters or default ones."
+  - AHHH!  You can mix named and positional!?!  This sounds like a bad idea to me.
+  - Aha!  Java Interop is right out on the "call with named arguments" thing
+
+- "Infix notation...Functions can also be called using infix notations when they are member or extension functions,
+they have a single parameter, and they are marked as infix."
+  - Meh.  Why do I need this?
+
+- "Local functions"
+  - Depth First Search recursively is pretty cool with Local Functions
+
+- "Kotlin supports a style of functional programming known as tail recursion. This allows some algorithms that would
+normally be written using loops to instead be written using a recursive function, but without the risk of stack
+overflow."
+  - It bothers me that it can't infer the tail recursion.  I mean, it has the "the recursive call must be the last thing
+  that happens" restriction.  Why can't they leverage that?
+
+- "Lambdas":  https://kotlinlang.org/docs/reference/lambdas.html
+- Lambda Overview
+  - it is always surrounded by { }
+  - Its parameters (if any) are declared before ->; parameters are optional
+  - The body goes after -> (when present)
+    - Wait, what?  both the parameters AND the body are optional...so {} is a useless lambda?
+  - "In Kotlin, there is a convention that if the last parameter to a function is a function, and you're passing a
+  lambda expression as the corresponding argument, you can specify it outside of parentheses:"
+    - I think that is a stupid convention.  This is what I hated about Ruby...too much optional syntax.  This complexity
+    gives the language a steep learning curve
+  - "We can explicitly return a value from the lambda using the qualified return syntax. Otherwise, the value of the
+  last expression is implicitly returned"
+    - it is bothering me that I don't get the same "last expression is implicity returned" from fat functions
+  - In the "Anonymous functions are a lot like Lambdas" section, I'm left with the impression, that Clojure got this
+  right; there may be 2 different ways to def a function (fn [x]...) and #( %1 ), but a function is a function.  There
+  is no distinction between a function and a lambda.  It seems in Kotlin there is.
+    - "Note that anonymous function parameters are always passed inside the parentheses. The shorthand syntax allowing
+    to leave the function outside the parentheses works only for lambda expressions."
+    - "One other difference between lambda expressions and anonymous functions is the behavior of non-local returns. A
+    return statement without a label always returns from the function declared with the fun keyword. This means that a
+    return inside a lambda expression will return from the enclosing function, whereas a return inside an anonymous
+    function will return from the anonymous function itself."
+  - My brain went sideways...
+    - val represents: String.(Int) -> Boolean = { other -> toIntOrNull() == other }
+    - println("123".represents(123)) // true
+
+
+
+
 
 
