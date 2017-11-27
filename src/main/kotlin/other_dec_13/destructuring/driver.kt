@@ -20,7 +20,8 @@ fun destructuring() {
     /*
      * BobK:  I am no longer a fan.  The positional stuff is just dumb.  aliases comes out "Robert" below.  The
      * compiler could have "done the right thing" here, no?  It had all the information to make the access somehow
-     * other than positional.
+     * other than positional.  I really think this doesn't hold up well to iterative development where things can
+     * change and members can get inserted
      *
      * I don't think I am alone in my opinion:
      * [Kotlin destructuring considered harmful](https://medium.com/@dmstocking/kotlin-destructuring-considered-harmful-2a5fa2397cac)
