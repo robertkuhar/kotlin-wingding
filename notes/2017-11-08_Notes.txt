@@ -18,7 +18,7 @@ would be very nice to implement once and for all, and put into a library"
 
 "Functions and Lambdas"
 
-- I was pleased to find there is some KDoc format (like JavaDoc).  Was displeased to learn IntelliJ doesn'ta utocomplete.
+- I was pleased to find there is some KDoc format (like JavaDoc).  Was displeased to learn IntelliJ doesn't autocomplete.
 - https://kotlinlang.org/docs/reference/kotlin-doc.html
 - It does seem to be able to pop-up
 - I had forgotten about calling a function with named arguments (Ex. foo(baz = 1) // The default value bar = 0 is used
@@ -68,7 +68,9 @@ overflow."
     - val represents: String.(Int) -> Boolean = { other -> toIntOrNull() == other }
     - println("123".represents(123)) // true
 
-
+- "Inline Functions":  https://kotlinlang.org/docs/reference/inline-functions.html
+  - Right out of the chute this sounds to be the problem Clojure's Macros are trying to solve, no?
+  - Noinline sounds kind-of crazy
 
 
 

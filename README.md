@@ -16,6 +16,8 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 
 # TODOs
 
+* 2017-11-08:  Convert notes/* to MarkDown.
+
 * 2017-10-08:  Creating WebApps with HttpServlet https://kotlinlang.org/docs/tutorials/httpservlets.html
 
   This should be possible without full IntelliJ Ultimate.  Gradle as some concept of "run WAR".

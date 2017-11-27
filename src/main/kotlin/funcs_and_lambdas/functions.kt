@@ -22,13 +22,12 @@ fun main(args: Array<String>) {
     val x = 2
     println("doubleIt($x) returns ${doubleIt(2)}")
 
-    println("${cat("a","b")}")
+    println("${cat("a", "b")}")
     val catViaSpread = cat(*arrayOf("c", "a", "t"))
     println("$catViaSpread")
 
     val infixOneplusTwo = 1 plus 2
     val postOneplusTwo = 1.plus(2)
     println("$infixOneplusTwo\n$postOneplusTwo")
-
 
 }
