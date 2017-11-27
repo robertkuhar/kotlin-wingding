@@ -28,6 +28,21 @@ fun destructuring() {
     val (aliases) = person
     println("aliases: $aliases")
 
+    val digitInEspanol = mapOf<Int,String>(
+            0 to "Cero",
+            1 to "Uno",
+            2 to "Dos",
+            3 to "Tres",
+            4 to "Quatro",
+            5 to "Cinco",
+            6 to "Seis",
+            7 to "Siete",
+            8 to "Ocho",
+            9 to "Nueve")
+    for((_,v) in digitInEspanol) {
+        // BobK: I'm a little impressed it maintained the insertion order.  Luck?
+        println("v is $v")
+    }
 }
 
 fun main(args: Array<String>) {
