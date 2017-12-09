@@ -25,6 +25,14 @@ fun destructuring() {
      *
      * I don't think I am alone in my opinion:
      * [Kotlin destructuring considered harmful](https://medium.com/@dmstocking/kotlin-destructuring-considered-harmful-2a5fa2397cac)
+     *
+     * Both Clojure and JavaScript got this right; respect the map, man.  Name:Value.  Kotlin missed the mark here
+     *
+     * const obj = { first: 'Jane', last: 'Doe' };
+     * const {last: lastComesFirst, first: firstComesLast} = obj;
+     *
+     * (let [{l :last f :first} janeDoe]
+     *   (printf "f:%s, l:%s, janeDoe:%s" f l janeDoe))
      */
     val (aliases) = person
     println("aliases: $aliases")
