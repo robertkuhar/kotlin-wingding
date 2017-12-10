@@ -20,11 +20,13 @@ fun main(args: Array<String>) {
     println("")
     for (i in 4 downTo 1) print(i) // prints "4321"
     println("")
+
     /*
      * Hmmm, why not allow 4..1 and infer the negative step?  This compiles, but IllegalArgumentException if you run!?!
      */
     // val tenToZeroStepTwo = 10..0 step -2
     // for(i in tenToZeroStepTwo) print("wow, $i.  ")
+
     val oneUntilTen = 1 until 10
     for (i in oneUntilTen) { // i in [1, 10), 10 is excluded println(i)
         if(i in twoThreeFour) {
