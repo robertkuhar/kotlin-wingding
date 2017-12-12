@@ -4,11 +4,12 @@ fun main(args: Array<String>) {
     // let, but, meh...
     val listWithNulls: List<String?> = listOf("A", null)
     for (item in listWithNulls) {
-        // let turns item into it, the "skip the null" here comes from the null-safe navigation thing
+        // let turns item into 'it', the "skip the null" here comes from the null-safe navigation thing
         item?.let {
             println("item: $item, it: $it")
         }
-        if(item !=null) {
+        // ...but, why?  Up the middle is the same lines of code.
+        if (item != null) {
             println("item: $item")
         }
     }
