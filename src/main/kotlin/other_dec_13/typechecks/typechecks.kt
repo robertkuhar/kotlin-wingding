@@ -14,9 +14,10 @@ fun smartCasts(x: Any) {
     if (x !is String) return
     println("smartCasts: ${x.length}") // x is automatically
 
-    // x is automatically cast to string on the right-hand side of `||`
+    // x is automatically cast to String on the right-hand side of `||`
     if (x !is String || x.length == 0) return
-    // x is automatically cast to string on the right-hand side of `&&`
+
+    // x is automatically cast to String on the right-hand side of `&&`
     if (x is String && x.length > 0) {
         println("smartCasts: Again, the length is ${x.length}")
     }
@@ -40,5 +41,5 @@ fun main(args: Array<String>) {
 
     smartCastsInWhen(5)
     smartCastsInWhen("Robert")
-    smartCastsInWhen(intArrayOf(1,2,3))
+    smartCastsInWhen(intArrayOf(1, 2, 3))
 }
