@@ -1,7 +1,7 @@
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-// BobK:  Do I have to be in a class?
+// This has to be a class, yuk.  Methinks JUnit is to blame.
 class helloworldTest {
     @Test
     fun testHelloWorld() {
