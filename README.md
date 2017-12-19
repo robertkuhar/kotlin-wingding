@@ -6,13 +6,13 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Date   | Topic(s)                                             | Moderator |
 |--------|------------------------------------------------------|-----------|
 | Sep 27 | "Overview", "Getting Started" | Bob K |
-| Oct 11 | "Basics",<br> "Classes and Objects" sections "Classes and Inheritence" through "Extensions" | Beau H |
+| Oct 11 | "Basics", "Classes and Objects" sections "Classes and Inheritence" through "Extensions" | Beau H |
 | Oct 25 | "Classes and Objects" sections "Data Classes" through "Delegated Properties" | Terry |
 | Nov 8  | "Functions and Lambdas" | Stan D |
 | Nov 22 | Thanksgiving break | Turkey |
-| Dec 13 | "Other",<br>"Destructuring Declarations" through "Null Safety" | Bob K |
+| Dec 13 | "Other", "Destructuring Declarations" through "Null Safety" | Bob K |
 | Dec 27 | Christmas break | Santa C |
-| Jan 10 | "Other",<br>"Exceptions" through "Multiplatform Projects"<br>"Coroutines" from "Functions and Lambdas"| Bob K |
+| Jan 10 | "Other", "Exceptions" through "Multiplatform Projects"<br>"Functions and Lambdas", "Coroutines" catch-up| Bob K |
 | Jan 24 | "Java Interop" and "Core Libraries" | Doug P |
 
 # TODOs
