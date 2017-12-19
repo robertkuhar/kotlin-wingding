@@ -31,7 +31,8 @@ fun destructuring() {
      * const obj = { first: 'Jane', last: 'Doe' };
      * const {last: lastComesFirst, first: firstComesLast} = obj;
      *
-     * (let [{l :last f :first} janeDoe]
+     * (let [janeDoe {:first "Jane" :last "Doe" :middle "Ellen" }
+     *       {l :last f :first} janeDoe]
      *   (printf "f:%s, l:%s, janeDoe:%s" f l janeDoe))
      */
     val (aliases) = person
@@ -52,6 +53,8 @@ fun destructuring() {
         // BobK: I'm a little impressed it maintained the insertion order.  Luck?
         println("v is $v")
     }
+
+    println("${digitInEspanol.javaClass}")
 }
 
 fun main(args: Array<String>) {

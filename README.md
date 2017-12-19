@@ -10,9 +10,10 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Oct 25 | "Classes and Objects" sections "Data Classes" through "Delegated Properties" | Terry |
 | Nov 8  | "Functions and Lambdas" | Stan D |
 | Nov 22 | Thanksgiving break | Turkey |
-| Dec 13 | "Other" | Bob K |
+| Dec 13 | "Other",<br>"Destructuring Declarations" through "Null Safety" | Bob K |
 | Dec 27 | Christmas break | Santa C |
-| Jan 10 | "Java Interop" and "Core Libraries" | Doug P |
+| Jan 10 | "Other",<br>"Exceptions" through "Multiplatform Projects"<br>"Coroutines" from "Functions and Lambdas"| Bob K |
+| Jan 24 | "Java Interop" and "Core Libraries" | Doug P |
 
 # TODOs
 

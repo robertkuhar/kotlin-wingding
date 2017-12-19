@@ -24,6 +24,7 @@ fun smartCasts(x: Any) {
 }
 
 fun smartCastsInWhen(x: Any) {
+    val `b o #!*!*!^!$ b d` = "Bob has ticks!"
     when (x) {
         is Int -> println("smartCastsInWhen: Add one to the Int ${x + 1}")
         is String -> println("smartCastsInWhen: Add one to the String's length ${x.length + 1}")

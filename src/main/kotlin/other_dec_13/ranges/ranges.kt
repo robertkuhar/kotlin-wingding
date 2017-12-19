@@ -27,6 +27,11 @@ fun main(args: Array<String>) {
     // val tenToZeroStepTwo = 10..0 step -2
     // for(i in tenToZeroStepTwo) print("wow, $i.  ")
 
+    val one = 1
+    val ten = 10
+    val z = one..ten step 1
+    for(i in z) print("pow, $i.  ")
+
     val oneUntilTen = 1 until 10
     for (i in oneUntilTen) { // i in [1, 10), 10 is excluded println(i)
         if(i in twoThreeFour) {
