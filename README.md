@@ -14,16 +14,13 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Dec 27 | Christmas break | Santa C |
 | Jan 10 | "Other", "Exceptions" through "Multiplatform Projects"<br>"Functions and Lambdas", "Coroutines" catch-up| Bob K |
 | Jan 24 | "Java Interop" and "Core Libraries" | Doug P |
-| Feb 14 | Valentines Day break | Saint Valentine |
+| Feb 14 | Valentines Day break | St Valentine |
 | Feb 28 | "Other", "Multiplatform Projects" and "JavaScript" | Bob K |
 
 # Interesting Links
 
 * Coroutines
-
-  http://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html
-  http://www.baeldung.com/kotlin-coroutines
+  * http://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html
+  * http://www.baeldung.com/kotlin-coroutines
 
 * Creating WebApps with HttpServlet https://kotlinlang.org/docs/tutorials/httpservlets.html
-
-  This should be possible without full IntelliJ Ultimate.  Gradle as some concept of "run WAR".
