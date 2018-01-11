@@ -53,6 +53,11 @@ fun main(args: Array<String>) {
     println("yeah, but x: $x.  What am I missing?")
     ::x.set(2)
     println("::x.set makes x: $x") // prints "2"
+
+    val beua = ::x::set
+    beua(6)
+    println("::x.set makes x: $x") // prints "6"
+
     x = 3
     println("yeah, but x: $x")
 
