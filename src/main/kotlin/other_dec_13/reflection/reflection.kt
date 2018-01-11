@@ -30,12 +30,6 @@ fun main(args: Array<String>) {
 
     fun length(s: String) = s.length
 
-    /*
-     * BobK:  The :: syntax feels strange to me.  Why couldn't I have just used the function;s name here (Ex: isOdd)?
-     * I'm obviously not calling it as that would be like isOdd(1).  The :: is feeling superfluous to me.
-     *
-     * Perhaps Kotlin's :: is like C's & unary operator (I think that is what that thing was called); it gets a
-     * reference to the thing, not the thing itself?  I'm confused. */
     val oddLength = compose(::isOdd, ::length)
 
     val strings = listOf("a", "ab", "abc")
@@ -48,14 +42,18 @@ fun main(args: Array<String>) {
     println("predicate(\"slithy\") produces ${predicate("slithy")}")
     println("oddLength(\"four\") produces ${oddLength("four")}")
 
-    // BobK:  The fuck is the :: doing there in first position?  In the docs this is covered under "Property References"
+    /*
+     * The :: in first position when dealing with Properties led to almost universal confusion.
+     * The docs this is covered under "Property References".  We were left wondering why it took
+     * ::x::set to get the "handle" to the x Property's set function.
+     */
     println("::x.get starts x: ${::x.get()}") // prints "1"
     println("yeah, but x: $x.  What am I missing?")
     ::x.set(2)
     println("::x.set makes x: $x") // prints "2"
 
-    val beua = ::x::set
-    beua(6)
+    val beau = ::x::set
+    beau(6)
     println("::x.set makes x: $x") // prints "6"
 
     x = 3
@@ -72,15 +70,9 @@ fun main(args: Array<String>) {
     println("mc::class.simpleName: ${mc::class.simpleName}")
     println("mc::class.qualifiedName: ${mc::class.qualifiedName}")
 
-    /*
-     * BobK:  My mental model here is :: returns a reference which you call through.  Is this what forces the function
-     * syntax to be so odd?  My "just use the name" trick doesn't work for properties which can be get and or set by
-     * name directly, so now you do need :: to derive the reference rather than return the thing.
-     */
     val prop = A::p
     println("the value of A(1) is: ${prop.get(A(1))}") // prints "the value of A(1) is: 1"
     println("the value of A(2) is: ${prop.get(A(2))}") // prints "the value of A(2) is: 2"
-
 
     // This is "Bound Function and Property References (since 1.1)"
     val numberRegex = "\\d+".toRegex()
