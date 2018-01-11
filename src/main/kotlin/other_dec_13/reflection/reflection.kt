@@ -44,8 +44,10 @@ fun main(args: Array<String>) {
 
     /*
      * The :: in first position when dealing with Properties led to almost universal confusion.
-     * The docs this is covered under "Property References".  We were left wondering why it took
-     * ::x::set to get the "handle" to the x Property's set function.
+     * In the docs this is covered under "Property References".  We were left wondering why it
+     * took ::x::set to get the "handle" to the x Property's set function.  It is still a little
+     * murky as to where you place this :: to get what effect.  Properties still feel like a
+     * "special case".
      */
     println("::x.get starts x: ${::x.get()}") // prints "1"
     println("yeah, but x: $x.  What am I missing?")
@@ -54,7 +56,7 @@ fun main(args: Array<String>) {
 
     val beau = ::x::set
     beau(6)
-    println("::x.set makes x: $x") // prints "6"
+    println("beau(6) makes x: $x") // prints "6"
 
     x = 3
     println("yeah, but x: $x")
