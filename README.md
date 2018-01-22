@@ -12,7 +12,7 @@ WingDings covers the Kotlin Programming Language (https://kotlinlang.org/docs/re
 | Nov 22 | Thanksgiving break | Turkey |
 | Dec 13 | "Other", "Destructuring Declarations" through "Null Safety" | Bob K |
 | Dec 27 | Christmas break | Santa C |
-| Jan 10 | "Other", "Exceptions" through "Multiplatform Projects"<br>"Functions and Lambdas", "Coroutines" catch-up| Bob K |
+| Jan 10 | "Other", "Exceptions" through "Type Safe Builders"<br>"Functions and Lambdas", "Coroutines" catch-up| Bob K |
 | Jan 24 | "Java Interop" and "Core Libraries" | Doug P |
 | Feb 14 | Valentines Day break | St Valentine |
 | Feb 28 | "Other", "Multiplatform Projects" and "JavaScript" | Bob K |
