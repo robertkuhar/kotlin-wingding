@@ -1,5 +1,5 @@
 fun sayHelloWorld(): String {
-    return "Hello, world!"
+    return "Hello, World!"
 }
 
 fun main(args: Array<String>) {

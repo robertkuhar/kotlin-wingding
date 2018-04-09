@@ -5,6 +5,6 @@ import org.junit.Test
 class helloworldTest {
     @Test
     fun testHelloWorld() {
-        assertEquals("Hello, world!", sayHelloWorld())
+        assertEquals("Hello, World!", sayHelloWorld())
     }
 }
